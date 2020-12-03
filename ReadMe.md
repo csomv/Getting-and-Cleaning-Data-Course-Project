@@ -5,7 +5,7 @@ This repository contains the following files for my course project:
 * run_analysis.R
 * CodeBook.md
 
-##### run_analysis.R
+#### run_analysis.R
 
 This is the R code that implements all the required steps in the assignment. This R code was developed under Windows 8 and under R version 4.0.2. The code assumes that the additionally required packages (`dplyr` and `reshape2`) are installed, however if they are not, they can be installed by the code below.
 
@@ -22,9 +22,9 @@ The code will generate a folder called `data` in the working directory, if there
 
 In case if you want to read the final data back into R, that can be done by the code below:
 
-    tidy_data <- read.table("./data/tidy_data.txt", header = TRUE, sep = "",          check.names = FALSE)
+    tidy_data <- read.table("./data/tidy_data.txt", header = TRUE, sep = "", check.names = FALSE)
 
 
-##### CodeBook.md
+#### CodeBook.md
 
 This file describes the variables, the data, and any transformations or work that you I performed during the project.
