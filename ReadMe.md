@@ -18,7 +18,7 @@ Once these packages are installed and run_analysis.R is saved locally into your 
 
     source("run_analysis.R")
 
-The code will generate a folder called `data` in the working directory, if there is not one yet. This folder will be used to download the data and unzip it there and the final dataset will be written into it as well (`./data/tidy_data.txt`).
+The code will generate a folder called `data` in the working directory, if there is not one yet. This folder will be used to download the data and unzip it there and the final, tidy dataset will be written into it as well (`./data/tidy_data.txt`).
 
 In case if you want to read the final data back into R, that can be done by the code below:
 
